@@ -27,6 +27,8 @@ class App extends Component {
         
         BTC: btc.price_thb,
         OMG: omg.price_thb
+        XRP: xrp.price_thb
+
       
       })
     })
@@ -41,6 +43,7 @@ class App extends Component {
        { 
         _.map(this.SYMBOLS,symbol) => <Ticker symbol={symbol} price={this.state.[symbol]/>
        }
+       
         </div>
     );
   }
