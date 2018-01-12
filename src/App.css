@@ -8,6 +8,7 @@
 }
 
 .App-header {
+  text-align: center
   background-color: #222;
   height: 150px;
   padding: 20px;
@@ -16,9 +17,11 @@
 
 .App-title {
   font-size: 1.5em;
+  text-align: center
 }
 
 .App-intro {
+  text-align: center
   font-size: large;
 }
 
